@@ -69,4 +69,12 @@ EOSIO 2.0.13 merged
 
 EOSIO branch release/2.0.x merged up to commit 173261f4 (Big ship deltas - 2.0)
 
+## Release `v2.0.13wax04`
 
+Merged https://github.com/eosnetworkfoundation/mandel/tree/release/2.0.x
+up to commit 3e7cbe13f04c2e1df687b09695418a4c7dd9d1b8
+Merge pull request #99 from eosnetworkfoundation/config-sub-decay-2.0
+Configurable subjective account decay time - 2.0
+
+New configuration option: "subjective-account-decay-time-minutes"
+Recommended value is 60 wherever subjective billing is enabled.
