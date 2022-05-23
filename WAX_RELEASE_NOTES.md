@@ -78,3 +78,10 @@ Configurable subjective account decay time - 2.0
 
 New configuration option: "subjective-account-decay-time-minutes"
 Recommended value is 60 wherever subjective billing is enabled.
+
+## Release `v2.0.14wax01`
+
+Merged with v2.0.14 from https://github.com/eosnetworkfoundation/mandel/tree/release/2.0.x
+Apply 3-strike rule for complete block production
+
+
