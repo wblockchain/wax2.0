@@ -84,4 +84,9 @@ Recommended value is 60 wherever subjective billing is enabled.
 Merged with v2.0.14 from https://github.com/eosnetworkfoundation/mandel/tree/release/2.0.x
 Apply 3-strike rule for complete block production
 
+## Release `v2.0.14wax02`
+
+Merged with https://github.com/AntelopeIO/leap/tree/sub-bill-uint32-2.0
+uint32_t for microseconds of subjective billing only allows for 1.2hrs
+before wrapping. Use int64_t instead which matches type used for objective billing.
 
